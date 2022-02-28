@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <link rel="stylesheet" href="css/style.css" />
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Friends - DoraTalk</title>
+</head>
+
+<body>
+  <div class="status-bar">
+    <div class="status-bar__column">
+      <span>No Service</span>
+      <i class="fas fa-wifi"></i>
+    </div>
+    <div class="status-bar__column">
+      <span>18:43</span>
+    </div>
+    <div class="status-bar__column">
+      <span>100%</span>
+      <i class="fas fa-battery-full fa-lg"></i>
+      <i class="fas fa-bolt"></i>
+    </div>
+  </div>
+
+  <header class="screen-header">
+    <h1 class="screen-header__title">친구</h1>
+    <div class="screen-header__icons">
+      <span><i class="fas fa-search fa-lg"></i></span>
+      <span><i class="fas fa-music fa-lg"></i></span>
+      <span><a href="settings.html"><i class="fas fa-cog fa-lg"></i></a></span>
+    </div>
+  </header>
+
+  <a id="friends-display-link">
+    <i class="fas fa-info-circle"></i> Friends' Names Display
+    <i class="fas fa-chevron-right fa-xs"></i>
+  </a>
+
+  <main class="friends-screen">
+    <div class="user-component">
+      <div class="user-component__column">
+        <img src="profile_image/doraemon.png" class="user-component__avatar user-component__avatar--xl" />
+        <div class="user-component__text">
+          <h4 class="user-component__title">도라에몽</h4>
+        </div>
+      </div>
+      <div class="user-component__column"></div>
+    </div>
+    <div class="friends-screen__channel">
+      <div class="friends-screen__channel-header">
+        <span>채널</span>
+        <i class="fas fa-chevron-up fa-xs"></i>
+      </div>
+      <div class="user-component">
+        <div class="user-component__column">
+          <img src="channel/dora_channel.png" class="user-component__avatar user-component__avatar--sm" />
+          <div class="user-component__text">
+            <h4 class="user-component__title user-component__title--not-bold">
+              채널
+            </h4>
+          </div>
+        </div>
+        <div class="user-component__column">
+          <i class="fas fa-chevron-right fa-xs"></i>
+        </div>
+      </div>
+    </div>
+    <div class="friends-screen__friends">
+      <div class="friends-screen__friends-header">
+        <span>친구</span>
+        <i class="fas fa-chevron-up fa-xs"></i>
+      </div>
+      <div class="user-component user-friends">
+        <div class="user-component__column">
+          <img src="profile_image/nojingu.png" class="user-component__avatar user-component__avatar--sm" />
+          <div class="user-component__text">
+            <h4 class="user-component__title user-component__title--not-bold">
+              노진구
+            </h4>
+            <span>도라에몽 도와줘!</span>
+          </div>
+        </div>
+        <div class="user-component__column">
+        </div>
+      </div>
+      <div class="user-component user-friends">
+        <div class="user-component__column">
+          <img src="profile_image/dorami.png" class="user-component__avatar user-component__avatar--sm" />
+          <div class="user-component__text">
+            <h4 class="user-component__title user-component__title--not-bold">
+              도라미
+            </h4>
+          </div>
+        </div>
+        <div class="user-component__column">
+        </div>
+      </div>
+      <div class="user-component user-friends">
+        <div class="user-component__column">
+          <img src="profile_image/eseul.png" class="user-component__avatar user-component__avatar--sm" />
+          <div class="user-component__text">
+            <h4 class="user-component__title user-component__title--not-bold">
+              이슬이
+            </h4>
+          </div>
+        </div>
+        <div class="user-component__column">
+        </div>
+      </div>
+      <div class="user-component user-friends">
+        <div class="user-component__column">
+          <img src="profile_image/toong.png" class="user-component__avatar user-component__avatar--sm" />
+          <div class="user-component__text">
+            <h4 class="user-component__title user-component__title--not-bold">
+              퉁퉁이
+            </h4>
+          </div>
+        </div>
+        <div class="user-component__column">
+        </div>
+      </div>
+      <div class="user-component user-friends">
+        <div class="user-component__column">
+          <img src="channel/dora_channel.png" class="user-component__avatar user-component__avatar--sm" />
+          <div class="user-component__text">
+            <h4 class="user-component__title user-component__title--not-bold">
+              이슬이
+            </h4>
+          </div>
+        </div>
+        <div class="user-component__column">
+        </div>
+      </div>
+    </div>
+  </main>
+
+  <nav class="nav">
+    <ul class="nav__list">
+      <li class="nav__btn">
+        <a class="nav__link" href="friends.html"><img src="nav_icons/user_on.png">
+          <span>친구</span></a>
+      </li>
+      <li class="nav__btn">
+        <a class="nav__link" href="chats.html">
+          <span class="nav__notification badge">1</span>
+          <img src="nav_icons/chat.png">
+          <span>채팅</span>
+        </a>
+      </li>
+      <li class="nav__btn">
+        <a class="nav__link" href="find.html"><img src="nav_icons/find.png"></i>
+          <span>찾기</span></a>
+      </li>
+      <li class="nav__btn">
+        <a class="nav__link" href="more.html"><img src="nav_icons/more.png"></i>
+          <span>더보기</span></a>
+      </li>
+    </ul>
+  </nav>
+  <div id="splash-screen">
+    <img src="splash_image/splash.png">
+  </div>
+
+  <div id="no-mobile">
+    <span>Your screen is too big 😭</span>
+  </div>
+
+  <script src="https://kit.fontawesome.com/6478f529f2.js" crossorigin="anonymous"></script>
+</body>
+
+</html>
